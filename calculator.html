@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container_grid">
+        <div id="result"></div>
+        <div class="calculator">
+            <div class="number">
+                <button class="btn" value="7" id="above">7</button>
+                <button class="btn" value="8" id="above">8</button>
+                <button class="btn" value="9" id="above">9</button>
+                <button class="btn" value="4" id="above1">4</button>
+                <button class="btn" value="5" id="above1">5</button>
+                <button class="btn" value="6" id="above1">6</button>
+                <button class="btn" value="1" id="ab
+                ove2">1</button>
+                <button class="btn" value="2" id="above2">2</button>
+                <button class="btn" value="3" id="above2">3</button>
+                <button class="btn" value="0" id="above3">0</button>
+                <button class="btn" value="." id="above3">.</button>
+            </div>
+
+            <div class="hoat_dong">
+                <button class="btn" onclick="xoa1so()" id="above3">DEL</button>
+                <button class="btn" onclick="clean()" id="above3">AC</button>
+                <button class="btn" value="*" id="dau">x</button>
+                <button class="btn" value="/" id="dau">/</button>
+                <button class="btn" value="+" id="dau">+</button>
+                <button class="btn" value="-" id="dau">-</button>
+                <button class="btn" onclick="ketqua()" id="dau">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="cript/cript.js"></script>
+</body>
+
+</html>
